@@ -22,6 +22,12 @@ body{
   padding-right: 10px;
 }
 
+
+.splash{
+  z-index: 1;
+
+}
+
 .top-icons {
   font-size: 30px;
   color: #88DEE9;
@@ -72,6 +78,7 @@ body{
   margin: 40px auto 0;
   font-weight: 500;
   line-height: 27px;
+  cursor: pointer;
 
 }
 
