@@ -1,14 +1,44 @@
-.page-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.mockup-container{
+  margin: 20px auto;
+  width: 375px;
+  height: 812px;
   background-image: url(/images/mockup.png);
   background-repeat: no-repeat;
-  height: 10000px;
+  background-size: contain;
+  position: relative;
+
 }
 
-.settings-icon{
-  padding-top: 28px;
-  padding-left: 20px;
+.top-icons{
+  font-size: 40px;
+  color:#88DEE9;
+}
 
+.top-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.bot-navbar{
+  height: 88px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 515px;
+}
+
+.bot-icons{
+  font-size: 32px;
+  color: #CDCDCD;
+}
+
+.bot-active{
+  color: #FF8181;
+  text-shadow: 0px 4px 10px 0px #FFA1A180;
 }
