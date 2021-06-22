@@ -136,3 +136,19 @@ body{
   letter-spacing: 4px;
   color:#2aa9ba;
 }
+.title-p{
+  margin:0 auto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  color: #6b6b6b;
+}
+.title-h3{
+  margin:0 auto 10px;;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #050505;
+}
