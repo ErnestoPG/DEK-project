@@ -4,7 +4,7 @@ body {
 
 .mockup-container {
   margin: 0 auto;
-  background-image: url(/images/mockup.png);
+  background-image: url("../images/mockup.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 380px;
@@ -411,17 +411,17 @@ body {
 /* updatecycle*/ 
 
 .updatecycleBG {
-  width: 83%;
+  width: 99%;
   z-index: 1;
   border-radius: 35px;
   align-content: center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 40px;
-
+  margin-top: 20px;
+  padding-left: 1px;
 }
 
 .updatecycleBG img {
-  width: 103%;
   padding-top: 25px;
+  border-radius: 35px;
 }
