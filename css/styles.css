@@ -227,3 +227,14 @@ body {
   text-align: center;
   color: #050505;
 }
+
+.union1{
+  position: absolute;  
+  top:165px;
+  left: 245px;
+}
+.union2{
+  position: absolute;  
+  top:1560px;
+  left: 245px;
+}
