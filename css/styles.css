@@ -100,11 +100,13 @@ body {
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
+  z-index: 10;
 }
 
 .bot-icons {
   font-size: 32px;
   color: #CDCDCD;
+  cursor: pointer;
 }
 
 .bot-active {
@@ -236,14 +238,78 @@ body {
   position: relative;
   border-radius: 35px;
   align-content: center;
+  background-size: contain;
 }
 
 .exerciseStart {
-  width: 40%;
+  display: flex;
   align-items: center;
   justify-content: center;
-
+  padding-top: 50%;
 }
 
-
+.btn-light{
+  width: 315px;
+  }
+.drop-excercise{
+  margin-top: 30px !important;
+  background-color: white !important;
+  display: flex!important;
+  justify-content: space-between ;
+  align-items: center;
+  border: 2px solid #E0E0E0 !important;
+  border-radius: 20px !important;
+}
 /* EXERCISE-PAGE */
+
+/*INSIGHTS PAGE*/
+.union1{
+  position: absolute;  
+  top:165px;
+  left: 245px;
+}
+.union2{
+  position: absolute;  
+  top:1560px;
+  left: 245px;
+}
+.bubbles-img {
+  width: 47px;
+  height: 24px;
+}
+.content h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.bubble-heading {
+  padding-top: 66px;
+  margin: 0 auto;
+  display: flex;
+}
+.bubble-heading {
+  padding-top: 66px;
+  margin: 0 auto;
+  display: flex;
+
+  font-weight: 100;
+  line-height: 36px;
+  letter-spacing: 4px;
+  color:#2aa9ba;
+  }
+.title-p {
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  color: #6b6b6b;
+}
+.title-h3 {
+  margin: 0 auto 10px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #050505;
+}
