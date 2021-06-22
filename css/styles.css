@@ -1,6 +1,7 @@
-body{
+body {
   font-family: 'Poppins', sans-serif;
 }
+
 .mockup-container {
   margin: 0 auto;
   background-image: url(/images/mockup.png);
@@ -23,10 +24,8 @@ body{
   padding-right: 10px;
 }
 
-
-.splash{
+.splash {
   z-index: 1;
-
 }
 
 .top-icons {
@@ -51,19 +50,16 @@ body{
   flex-direction: column;
 }
 
-.content h2{
+.content h2 {
   font-weight: 400;
   font-size: 24px;
   line-height: 36px;
-
 }
 
 .content img {
   width: 315px;
   height: 315px;
 }
-
-
 
 .btn-coral {
   width: 200px;
@@ -80,7 +76,6 @@ body{
   font-weight: 500;
   line-height: 27px;
   cursor: pointer;
-
 }
 
 /* .bot-navbar{
@@ -144,7 +139,7 @@ body{
   align-items: center;
 }
 
-.calDropdown h2{
+.calDropdown h2 {
   padding-right: 10px;
   color: #323232;
 }
@@ -195,14 +190,13 @@ body{
   color: #cbcbcb;
 }
 
-
 /* INSIGHTS-PAGE */
-.bubbles-img{
+.bubbles-img {
   width: 47px;
   height: 24px;
 }
 
-.bubble-heading{
+.bubble-heading {
   padding-top: 66px;
   margin: 0 auto;
   display: flex;
@@ -213,18 +207,20 @@ body{
   font-weight: 100;
   line-height: 36px;
   letter-spacing: 4px;
-  color:#2aa9ba;
+  color: #2aa9ba;
 }
-.title-p{
-  margin:0 auto;
+
+.title-p {
+  margin: 0 auto;
   font-size: 18px;
   font-weight: 500;
   line-height: 27px;
   text-align: center;
   color: #6b6b6b;
 }
-.title-h3{
-  margin:0 auto 10px;
+
+.title-h3 {
+  margin: 0 auto 10px;
   font-size: 24px;
   font-weight: 600;
   line-height: 27px;
