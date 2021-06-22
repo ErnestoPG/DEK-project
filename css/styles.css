@@ -370,9 +370,41 @@ body {
 }
 
 .statsContent {
-  width: 330px;
-  height: 585px;
+  width: 325px;
+  height: 520px;
   overflow: auto;
   text-align: justify;
   padding-left: 10px;
 }
+.insights-content{
+        width: 325px;
+        height: 440px;
+        overflow: auto;
+        text-align: justify;
+        padding-left: 10px;
+} 
+
+.dropdown-menu{
+  background-color: white !important;
+  width: 310px;
+  border: 2px solid #E0E0E0 !important;
+  border-radius: 20px !important;
+  
+}
+
+.dropdown-item{
+  margin:10px auto !important;
+  display: flex !important;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.dropdown-item img{
+  margin-right: 16px;;
+}
+
+.drop-excercise img{
+  margin-right: 16px;
+}
+
