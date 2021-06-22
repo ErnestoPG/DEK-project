@@ -114,3 +114,25 @@ body{
   color: #FF8181;
   text-shadow: 0px 4px 10px 0px #FFA1A180;
 }
+
+
+
+/* INSIGHTS-PAGE */
+.bubbles-img{
+  width: 47px;
+  height: 24px;
+}
+
+.bubble-heading{
+  padding-top: 66px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 36px;
+  letter-spacing: 4px;
+  color:#2aa9ba;
+}
