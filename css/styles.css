@@ -21,6 +21,7 @@ body{
 .margins {
   padding-left: 10px;
   padding-right: 10px;
+  z-index: 1000;
 }
 
 
@@ -118,13 +119,18 @@ body{
 
 .calendar-top-nav {
   display: flex; 
-  flex-direction: row;
+  flex-direction:column;
   justify-content: space-between;
   background-color: #f1f1f1; 
   align-items: center;
   width: 323px;
   height: 123px;
   margin-left: 2px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  position: relative;
+  top:25px;
+  z-index: 1;
 }
 
 .fa-chevron-left {
@@ -142,6 +148,7 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 30px;
 }
 
 .calDropdown h2{
@@ -176,6 +183,8 @@ body{
 
 .calendarLegend {
   padding-left: 160px;
+  position: absolute;
+  z-index: 2;
 }
 
 .nextMonth {
@@ -193,4 +202,49 @@ body{
 
 .greydrop {
   color: #cbcbcb;
+}
+
+.blackimg {
+  position: relative;
+  z-index: 5;
+  width: 99%;
+  align-items: center;
+}
+
+.calTopItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calTopItems .fa-chevron-left {
+  padding-right: 60px;
+}
+
+.exercise-top-nav {
+  position: relative;
+  top:25px;
+  z-index: 5;
+}
+
+.exerciseDropdown {
+  margin-left: 8px;
+  width: 94%;
+}
+
+.exercisebackground {
+  background-image: url(/images/exercisepage/background.png);
+  width: 83%;
+  z-index: 1;
+  position: relative;
+  border-radius: 35px;
+  align-content: center;
+}
+
+.exerciseStart {
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+
 }
