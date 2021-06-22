@@ -232,7 +232,7 @@ body {
 }
 
 .exercisebackground {
-  background-image: url(/images/exercisepage/background.png);
+  background-image: url("../images/exercisepage/background.png");
   width: 83%;
   z-index: 1;
   position: relative;
@@ -408,3 +408,20 @@ body {
   margin-right: 16px;
 }
 
+/* updatecycle*/ 
+
+.updatecycleBG {
+  width: 83%;
+  z-index: 1;
+  border-radius: 35px;
+  align-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+
+}
+
+.updatecycleBG img {
+  width: 103%;
+  padding-top: 25px;
+}
