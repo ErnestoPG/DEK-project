@@ -426,13 +426,22 @@ body {
   border-radius: 35px;
 }
 
-.btn-smred{
-  position: absolute;
-  top: 140px;
-  left:20px;
+.btn-smred{  
   background-color: white;
   border: none;
   color:#FF8383;
   text-decoration: underline;
   font-style: italic;
+}
+
+.top-left{
+  position: absolute;
+  top: 140px;
+  left:20px;
+}
+
+.top-right{
+  position: absolute;
+  top: 140px;
+  right:20px;
 }
