@@ -101,7 +101,7 @@ body {
 
  border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    background-color: white; 
+    background-color: white;
 }
 
 .bot-icons {
@@ -112,12 +112,12 @@ body {
 
 .bot-active {
   color: #FF8181;
-  
+
 }
 
                                                /* CALENDAR-PAGE */
 .calendar-top-nav {
-  display: flex; 
+  display: flex;
   flex-direction:column;
   justify-content: space-between;
   background-color: #f1f1f1;
@@ -229,7 +229,7 @@ body {
 
 .exerciseDropdown {
   padding-left: 16px !important;
-  width: 94%;  
+  width: 94%;
 }
 .dropdown button{
   display: flex !important;
@@ -246,7 +246,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   height: 700px;
-  
+
 }
 .bot-navbar-exc {
   position: absolute;
@@ -264,7 +264,7 @@ body {
 
  border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    background-color: white; 
+    background-color: white;
 }
 
 .exerciseStart {
@@ -290,13 +290,21 @@ body {
                                                     /* EXERCISE-PAGE */
 
                                                       /*INSIGHTS PAGE*/
+
 .union1{
-  position: absolute;  
+  position: absolute;
   top:165px;
   left: 245px;
 }
+.insights-content{
+        width: 315px;
+        height: 440px;
+        overflow: auto;
+        text-align: center;
+
+}
 .union2{
-  position: absolute;  
+  position: absolute;
   top:1560px;
   left: 245px;
 }
@@ -400,19 +408,13 @@ align-items: center;
   text-align: justify;
   padding-left: 10px;
 }
-.insights-content{
-        width: 325px;
-        height: 440px;
-        overflow: auto;
-        text-align: justify;
-        padding-left: 10px;
-} 
+
 
 .dropdown-menu{
   background-color: white !important;
   width: 100%;
   border: 2px solid #E0E0E0 !important;
-  border-radius: 20px !important;  
+  border-radius: 20px !important;
 }
 
 .dropdown-item{
@@ -420,7 +422,7 @@ align-items: center;
   display: flex !important;
   text-align: center;
   align-items: center;
-  
+
 }
 
 .dropdown-item img{
@@ -431,7 +433,7 @@ align-items: center;
   margin-right: 16px;
 }
 
-/* updatecycle*/ 
+/* updatecycle*/
 
 .updatecycleBG {
   width: 99%;
@@ -449,7 +451,7 @@ align-items: center;
   border-radius: 35px;
 }
 
-.btn-smred{  
+.btn-smred{
   background-color: white;
   border: none;
   color:#FF8383;
