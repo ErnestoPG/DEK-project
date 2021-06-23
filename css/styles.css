@@ -90,7 +90,7 @@ body {
   bottom: 0;
   right:1px;
   height: 88px;
-  width: 310px;
+  width: 305px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -98,9 +98,10 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   z-index: 10;
- /* border-bottom-left-radius: 35px;
+
+ border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    background-color: white; */
+    background-color: white; 
 }
 
 .bot-icons {
@@ -111,7 +112,7 @@ body {
 
 .bot-active {
   color: #FF8181;
-  text-shadow: 0px 4px 10px 0px #FFA1A180;
+  
 }
 
                                                /* CALENDAR-PAGE */
@@ -227,7 +228,7 @@ body {
 }
 
 .exerciseDropdown {
-  margin-left: 8px;
+  padding-left: 16px !important;
   width: 94%;  
 }
 .dropdown button{
@@ -237,13 +238,33 @@ body {
 
 .exercisebackground {
   background-image: url("../images/exercisepage/background.png");
-  width: 83%;
+  width: 325px;
   z-index: 1;
   position: relative;
   border-radius: 35px;
   align-content: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700px;
   
+}
+.bot-navbar-exc {
+  position: absolute;
+  bottom: 0;
+  right:1px;
+  height: 88px;
+  width: 325px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 10;
+
+ border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: white; 
 }
 
 .exerciseStart {
@@ -446,4 +467,29 @@ align-items: center;
   position: absolute;
   top: 140px;
   right:20px;
+}
+
+.bot-item-conteiner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bot-navbar p{
+  color:#CDCDCD;
+  text-decoration: none !important;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.text-active{
+  color:#FF8383 !important;
+}
+
+.bot-navbar-exc p{
+  color:#CDCDCD;
+  text-decoration: none !important;
+  font-size: 12px;
+  margin-top: 0;
 }
