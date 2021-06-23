@@ -92,8 +92,9 @@ body {
 .bot-navbar {
   position: absolute;
   bottom: 0;
+  left: 0.25px;
   height: 88px;
-  width: 307px;
+  width: 315px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -101,6 +102,9 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   z-index: 10;
+ /* border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: white; */
 }
 
 .bot-icons {
@@ -114,7 +118,7 @@ body {
   text-shadow: 0px 4px 10px 0px #FFA1A180;
 }
 
-/* CALENDAR-PAGE */
+                                               /* CALENDAR-PAGE */
 .calendar-top-nav {
   display: flex; 
   flex-direction:column;
@@ -219,7 +223,7 @@ body {
 .calTopItems .fa-chevron-left {
   padding-right: 60px;
 }
-
+                                              /* EXERCISE-PAGE */
 .exercise-top-nav {
   position: relative;
   top:25px;
@@ -228,7 +232,11 @@ body {
 
 .exerciseDropdown {
   margin-left: 8px;
-  width: 94%;
+  width: 94%;  
+}
+.dropdown button{
+  display: flex !important;
+  justify-content: start!important;
 }
 
 .exercisebackground {
@@ -238,14 +246,16 @@ body {
   position: relative;
   border-radius: 35px;
   align-content: center;
-  background-size: contain;
+  background-size: cover;
+  
 }
 
 .exerciseStart {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 50%;
+  padding-top: 57%;
+
 }
 
 .btn-light{
@@ -260,9 +270,9 @@ body {
   border: 2px solid #E0E0E0 !important;
   border-radius: 20px !important;
 }
-/* EXERCISE-PAGE */
+                                                    /* EXERCISE-PAGE */
 
-/*INSIGHTS PAGE*/
+                                                      /*INSIGHTS PAGE*/
 .union1{
   position: absolute;  
   top:165px;
@@ -282,16 +292,13 @@ body {
   font-size: 24px;
   line-height: 36px;
 }
-.bubble-heading {
-  padding-top: 66px;
-  margin: 0 auto;
-  display: flex;
-}
-.bubble-heading {
-  padding-top: 66px;
-  margin: 0 auto;
-  display: flex;
 
+.bubble-heading {
+  padding-top: 66px;
+  margin: 0 auto;
+  display: flex;
+justify-content: center;
+align-items: center;
   font-weight: 100;
   line-height: 36px;
   letter-spacing: 4px;
@@ -316,7 +323,7 @@ body {
 
 
 
-/*STATS PAGE*/
+                                                /*STATS PAGE*/
 .statsTop {
   display: flex;
   flex-direction: column;
@@ -386,10 +393,9 @@ body {
 
 .dropdown-menu{
   background-color: white !important;
-  width: 310px;
+  width: 100%;
   border: 2px solid #E0E0E0 !important;
-  border-radius: 20px !important;
-  
+  border-radius: 20px !important;  
 }
 
 .dropdown-item{
