@@ -25,10 +25,6 @@ body {
   z-index: 1000;
 }
 
-.splash {
-  z-index: 1;
-}
-
 .top-icons {
   font-size: 30px;
   color: #88DEE9;
@@ -92,9 +88,9 @@ body {
 .bot-navbar {
   position: absolute;
   bottom: 0;
-  left: 0.25px;
+  right:1px;
   height: 88px;
-  width: 315px;
+  width: 310px;
   display: flex;
   align-items: center;
   flex-direction: row;
