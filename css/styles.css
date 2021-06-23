@@ -425,3 +425,14 @@ body {
   padding-top: 25px;
   border-radius: 35px;
 }
+
+.btn-smred{
+  position: absolute;
+  top: 140px;
+  left:20px;
+  background-color: white;
+  border: none;
+  color:#FF8383;
+  text-decoration: underline;
+  font-style: italic;
+}
