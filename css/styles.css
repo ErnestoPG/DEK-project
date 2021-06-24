@@ -89,7 +89,7 @@ body {
 .bot-navbar {
   position: absolute;
   bottom: 0;
-  right: 1px;
+  right: 3px;
   height: 88px;
   width: 305px;
   display: flex;
@@ -226,12 +226,17 @@ body {
   top: 25px;
   z-index: 5;
 }
+.pad-chev{
+  padding-left: 10px;
+}
 
 .dropdown-menu{
   width: 305px !important;
+  font-family: 'Poppins', sans-serif;
 }
 .dropdown {
   padding-left: 10px;
+
 }
 
 
@@ -241,6 +246,8 @@ body {
   justify-content: start !important;
   width: 310px;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .exercisebackground {
@@ -345,6 +352,10 @@ body {
   color: #2aa9ba;
 }
 
+.ins-btn{
+  margin: 0 auto 100px;
+}
+
 .title-p {
   margin: 0 auto;
   font-size: 18px;
@@ -423,6 +434,30 @@ body {
   text-align: justify;
   padding-left: 10px;
 }
+.bot-navbar-stats{
+  position: absolute;
+  bottom: 0;
+  right: 3px;
+  height: 88px;
+  width: 325px !important;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 10;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background-color: white;
+}
+
+
+
+
+
+
+
 
 .dropdown-menu {
   background-color: white !important;
@@ -503,6 +538,13 @@ body {
 }
 
 .bot-navbar-exc p {
+  color: #CDCDCD;
+  text-decoration: none !important;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.bot-navbar-stats p {
   color: #CDCDCD;
   text-decoration: none !important;
   font-size: 12px;
