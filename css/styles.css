@@ -322,7 +322,7 @@ body {
   text-align: center;
   padding-right: 5px;
   -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+  scrollbar-width: none;  /* Firefox */
 
 }
 .insights-content::-webkit-scrollbar {
