@@ -318,7 +318,7 @@ body {
 .insights-content {
   width: 315px;
   height: 540px;
-  overflow: auto;
+  overflow-y: scroll;
   text-align: center;
   padding-right: 5px;
   -ms-overflow-style: none;  /* IE and Edge */
@@ -435,7 +435,7 @@ body {
 .statsContent {
   width: 325px;
   height: 520px;
-  overflow: auto;
+  overflow-y: scroll;
   text-align: justify;
   padding-left: 10px;
   -ms-overflow-style: none;  /* IE and Edge */
