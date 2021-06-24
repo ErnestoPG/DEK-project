@@ -436,11 +436,14 @@ body {
   overflow: auto;
   text-align: justify;
   padding-left: 10px;
+  -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .statsContent::-webkit-scrollbar {
-  display: none;  
+  display: none;
 }
+
 
 .bot-navbar-stats{
   position: absolute;
