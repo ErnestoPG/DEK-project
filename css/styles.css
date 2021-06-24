@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-y: hidden !important;
 }
 
 .mockup-container {
@@ -88,7 +89,7 @@ body {
 .bot-navbar {
   position: absolute;
   bottom: 0;
-  right:1px;
+  right: 1px;
   height: 88px;
   width: 305px;
   display: flex;
@@ -98,10 +99,9 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   z-index: 10;
-
- border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    background-color: white;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background-color: white;
 }
 
 .bot-icons {
@@ -112,13 +112,12 @@ body {
 
 .bot-active {
   color: #FF8181;
-
 }
 
-                                               /* CALENDAR-PAGE */
+/* CALENDAR-PAGE */
 .calendar-top-nav {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: space-between;
   background-color: #f1f1f1;
   align-items: center;
@@ -128,7 +127,7 @@ body {
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
   position: relative;
-  top:25px;
+  top: 25px;
   z-index: 1;
 }
 
@@ -220,20 +219,28 @@ body {
 .calTopItems .fa-chevron-left {
   padding-right: 60px;
 }
-                                              /* EXERCISE-PAGE */
+
+/* EXERCISE-PAGE */
 .exercise-top-nav {
   position: relative;
-  top:25px;
+  top: 25px;
   z-index: 5;
 }
 
-.exerciseDropdown {
-  padding-left: 16px !important;
-  width: 94%;
+.dropdown-menu{
+  width: 305px !important;
 }
-.dropdown button{
+.dropdown {
+  padding-left: 10px;
+}
+
+
+
+.dropdown button {
   display: flex !important;
-  justify-content: start!important;
+  justify-content: start !important;
+  width: 310px;
+  align-items: center;
 }
 
 .exercisebackground {
@@ -246,12 +253,13 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   height: 700px;
-
+  left: 2px;
 }
+
 .bot-navbar-exc {
   position: absolute;
   bottom: 0;
-  right:1px;
+  right: 3.5px;
   height: 88px;
   width: 325px;
   display: flex;
@@ -261,10 +269,9 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   z-index: 10;
-
- border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    background-color: white;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  background-color: white;
 }
 
 .exerciseStart {
@@ -272,47 +279,54 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 57%;
-
 }
 
-.btn-light{
+.btn-light {
   width: 315px;
-  }
-.drop-excercise{
+}
+
+.drop-excercise {
   margin-top: 30px !important;
   background-color: white !important;
-  display: flex!important;
-  justify-content: space-between ;
+  display: flex !important;
+  justify-content: space-between;
   align-items: center;
   border: 2px solid #E0E0E0 !important;
   border-radius: 20px !important;
+  width: 310px;
 }
-                                                    /* EXERCISE-PAGE */
 
-                                                      /*INSIGHTS PAGE*/
-
-.union1{
+/* EXERCISE-PAGE */
+/*INSIGHTS PAGE*/
+.union1 {
   position: absolute;
-  top:165px;
+  top: -270px;
+  left: 235px;
+}
+
+.blue-img-cont {
+  position: relative;
+}
+
+.insights-content {
+  width: 315px;
+  height: 540px;
+  overflow: auto;
+  text-align: center;
+  padding-right: 5px;
+}
+
+.union2 {
+  position: absolute;
+  top: 1560px;
   left: 245px;
 }
-.insights-content{
-        width: 315px;
-        height: 440px;
-        overflow: auto;
-        text-align: center;
-        padding-right: 5px;
 
-}
-.union2{
-  position: absolute;
-  top:1560px;
-  left: 245px;
-}
 .bubbles-img {
   width: 47px;
   height: 24px;
 }
+
 .content h2 {
   font-weight: 400;
   font-size: 24px;
@@ -323,13 +337,14 @@ body {
   padding-top: 66px;
   margin: 0 auto;
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
   font-weight: 100;
   line-height: 36px;
   letter-spacing: 4px;
-  color:#2aa9ba;
-  }
+  color: #2aa9ba;
+}
+
 .title-p {
   margin: 0 auto;
   font-size: 18px;
@@ -338,6 +353,7 @@ align-items: center;
   text-align: center;
   color: #6b6b6b;
 }
+
 .title-h3 {
   margin: 0 auto 10px;
   font-size: 24px;
@@ -347,9 +363,7 @@ align-items: center;
   color: #050505;
 }
 
-
-
-                                                /*STATS PAGE*/
+/*STATS PAGE*/
 .statsTop {
   display: flex;
   flex-direction: column;
@@ -375,7 +389,7 @@ align-items: center;
   align-items: center;
   padding-left: 10px;
   padding-top: 30px;
-  color:#323232;
+  color: #323232;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -410,32 +424,30 @@ align-items: center;
   padding-left: 10px;
 }
 
-
-.dropdown-menu{
+.dropdown-menu {
   background-color: white !important;
   width: 100%;
   border: 2px solid #E0E0E0 !important;
   border-radius: 20px !important;
 }
 
-.dropdown-item{
-  margin:10px auto !important;
+.dropdown-item {
+  margin: 10px auto !important;
   display: flex !important;
   text-align: center;
   align-items: center;
-
 }
 
-.dropdown-item img{
-  margin-right: 16px;;
+.dropdown-item img {
+  margin-right: 16px;
+  ;
 }
 
-.drop-excercise img{
+.drop-excercise img {
   margin-right: 16px;
 }
 
 /* updatecycle*/
-
 .updatecycleBG {
   width: 99%;
   z-index: 1;
@@ -452,46 +464,46 @@ align-items: center;
   border-radius: 35px;
 }
 
-.btn-smred{
+.btn-smred {
   background-color: white;
   border: none;
-  color:#FF8383;
+  color: #FF8383;
   text-decoration: underline;
   font-style: italic;
 }
 
-.top-left{
+.top-left {
   position: absolute;
   top: 140px;
-  left:20px;
+  left: 20px;
 }
 
-.top-right{
+.top-right {
   position: absolute;
   top: 140px;
-  right:20px;
+  right: 20px;
 }
 
-.bot-item-conteiner{
+.bot-item-conteiner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.bot-navbar p{
-  color:#CDCDCD;
+.bot-navbar p {
+  color: #CDCDCD;
   text-decoration: none !important;
   font-size: 12px;
   margin-top: 0;
 }
 
-.text-active{
-  color:#FF8383 !important;
+.text-active {
+  color: #FF8383 !important;
 }
 
-.bot-navbar-exc p{
-  color:#CDCDCD;
+.bot-navbar-exc p {
+  color: #CDCDCD;
   text-decoration: none !important;
   font-size: 12px;
   margin-top: 0;

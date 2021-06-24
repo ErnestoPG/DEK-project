@@ -3,14 +3,17 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BHH5RT1FCQ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BHH5RT1FCQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-BHH5RT1FCQ');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-BHH5RT1FCQ');
+  </script>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/styles.css">
   <title>OvaryActive</title>
@@ -19,57 +22,74 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,500&display=swap" rel="stylesheet">
-<!-- Hotjar Tracking Code for https://ernestopg.github.io/DEK-project/index.html -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2467786,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  <!-- Hotjar Tracking Code for https://ernestopg.github.io/DEK-project/index.html -->
+  <script>
+    (function(h, o, t, j, a, r) {
+      h.hj = h.hj || function() {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 2467786,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
       a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
 </head>
 
 <body>
   <div class="mockup-container">
     <div class="screen">
       <div class="exercisebackground">
-      <!-- TOP NAVIGATION -->
-      <div class="exercise-top-nav">
-        <img class = "blackimg"src= "images/Black.png">
-      <!--  <a href= ""> <img class= "exerciseDropdown" src="images/exercisepage/exercisedrop.png"></a> -->
-      <div class="dropdown">
-        <button class="btn drop-excercise btn-light " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="images/exercisepage/runnerguy.png" style="width:25px;"> <strong>Run</strong>
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#"><img src="images/exercisepage/cyclingguy.png" style="width:20px;" alt=""> Cycling</a></li>
-          <li><a class="dropdown-item" href="#"><img src="images/exercisepage/ropeguy.png" style="width:20px;" alt="">Jump Rope</a></li>
-          <li><a class="dropdown-item" href="#"><img src="images/exercisepage/yogaguy.png" style="width:20px;" alt="">Yoga</a></li>
-          <li><a class="dropdown-item" href="#"><img src="images/exercisepage/weightguy.png" style="width:20px;" alt="">Weight Lifting</a></li>
-          <li><a class="dropdown-item" href="#"><img src="images/exercisepage/crossfitguy.png" style="width:20px;" alt="">CrossFit</a></li>
-          <li><a class="dropdown-item" href="#"><img src="images/exercisepage/aerobicguy.png" style="width:20px;" alt="">Aerobics</a></li>
-        </ul>
-      </div>
-      </div>
-       <div class="exerciseStart">
-           <img style="width: 40%;" src="images/exercisepage/startButton.png"  alt="">
+        <!-- TOP NAVIGATION -->
+        <div class="exercise-top-nav">
+          <img class="blackimg" src="images/Black.png">
+
+          <div class="dropdown">
+            <button class="btn drop-excercise btn-light " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="images/exercisepage/runnerguy.png" style="width:25px;"> <strong>Run</strong>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#"><img src="images/exercisepage/cyclingguy.png" style="width:20px;" alt=""> Cycling</a></li>
+              <li><a class="dropdown-item" href="#"><img src="images/exercisepage/ropeguy.png" style="width:20px;" alt="">Jump Rope</a></li>
+              <li><a class="dropdown-item" href="#"><img src="images/exercisepage/yogaguy.png" style="width:20px;" alt="">Yoga</a></li>
+              <li><a class="dropdown-item" href="#"><img src="images/exercisepage/weightguy.png" style="width:20px;" alt="">Weight Lifting</a></li>
+              <li><a class="dropdown-item" href="#"><img src="images/exercisepage/crossfitguy.png" style="width:20px;" alt="">CrossFit</a></li>
+              <li><a class="dropdown-item" href="#"><img src="images/exercisepage/aerobicguy.png" style="width:20px;" alt="">Aerobics</a></li>
+            </ul>
+          </div>
+        </div>
+
+
+
+        <div class="exerciseStart">
+          <img style="width: 40%;" src="images/exercisepage/startButton.png" alt="">
         </div>
 
       </div>
-        <!-- BOTTOM NAVIGATION BAR -->
-        <div class="bot-navbar-exc">
-          <div class="bot-item-conteiner"><a href="index.html"><i class="bot-icons fas fa-home"></i></a><p>home</p></div>
-          <div class="bot-item-conteiner"><a href="insights.html"><i class="bot-icons far fa-lightbulb"></i></a><p>insights</p></div>
-          <div class="bot-item-conteiner"><a href="#"><i class="bot-active bot-icons fas fa-running"></i></a><p class="text-active">exercise</p></div>
-          <div class="bot-item-conteiner"><a href="stats.html"><i class="bot-icons fas fa-chart-bar"></i></a><p>stats</p></div>
+      <!-- BOTTOM NAVIGATION BAR -->
+      <div class="bot-navbar-exc">
+        <div class="bot-item-conteiner"><a href="index.html"><i class="bot-icons fas fa-home"></i></a>
+          <p>home</p>
         </div>
-      
+        <div class="bot-item-conteiner"><a href="insights.html"><i class="bot-icons far fa-lightbulb"></i></a>
+          <p>insights</p>
+        </div>
+        <div class="bot-item-conteiner"><a href="#"><i class="bot-active bot-icons fas fa-running"></i></a>
+          <p class="text-active">exercise</p>
+        </div>
+        <div class="bot-item-conteiner"><a href="stats.html"><i class="bot-icons fas fa-chart-bar"></i></a>
+          <p>stats</p>
+        </div>
       </div>
-      </div>
-      
-      </body>
-      
-      </html>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>
