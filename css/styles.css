@@ -321,8 +321,11 @@ body {
   overflow: auto;
   text-align: center;
   padding-right: 5px;
-}
 
+}
+.insights-content::-webkit-scrollbar {
+  display: none;
+}
 .union2 {
   position: absolute;
   top: 1560px;
@@ -434,6 +437,11 @@ body {
   text-align: justify;
   padding-left: 10px;
 }
+
+.statsContent::-webkit-scrollbar {
+  display: none;  
+}
+
 .bot-navbar-stats{
   position: absolute;
   bottom: 0;
