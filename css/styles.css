@@ -1,8 +1,10 @@
 body {
   font-family: 'Poppins', sans-serif;
-  
-}
 
+}
+.bolder-text{
+  font-weight: 500;
+}
 .mockup-container {
   margin: 0 auto;
   background-image: url("../images/mockup.png");
