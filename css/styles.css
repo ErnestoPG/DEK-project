@@ -565,3 +565,11 @@ body {
   font-size: 12px;
   margin-top: 0;
 }
+
+.dropdown p {
+  display: flex;
+  width: 200px;;
+  color: #333;
+  margin-bottom: 0;
+  font-style: italic;
+}
